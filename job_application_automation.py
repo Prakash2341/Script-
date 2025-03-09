@@ -27,7 +27,7 @@ msg['From'] = sender_email
 msg['To'] = receiver_email
 msg['Subject'] = subject
 msg.attach(MIMEText(body, 'plain'))
-resume_filename = r".\\PRAKASHSD.pdf"
+resume_filename = "/storage/emulated/0/scriptemail/PRAKASHSD.pdf"
 try:
     with open(resume_filename, "rb") as attachment:
         part = MIMEBase('application', 'octet-stream')
