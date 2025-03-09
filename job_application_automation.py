@@ -6,12 +6,12 @@ from email import encoders
 sender_email = "prakashvenkat148@gmail.com"
 sender_password = "jlzn yyji zizl eijn" 
 receiver_email = input("Enter the recipient's email address: ")
-company_name = input("Enter the company name: ")
+#company_name = input("Enter the company name: ")
 subject = "Job Application for Web Developer Position"
 body = f"""
-Hi Recipient's,
+Hi Recruiter's,
 
-I hope you're doing well. My name is Prakash, and I'm very interested in the Web Developer position at {company_name}. With over one year of experience in web development, I have worked with technologies such as HTML5, CSS, JavaScript, AngularJS, and Java, building responsive and user-friendly web applications.
+I hope you're doing well. My name is Prakash, and I'm very interested in the Web Developer position in your company. With over one year of experience in web development, I have worked with technologies such as HTML5, CSS, JavaScript, AngularJS, and Java, building responsive and user-friendly web applications.
 
 I'm impressed by the innovative work your team does, and I believe my skills align well with your needs.
 I’m excited about the opportunity to contribute and grow within your organization.
